@@ -1,0 +1,283 @@
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2);
+}
+@font-face {
+    font-family: hpammo;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2);
+}
+
+#seasonLabel {
+    display: none !important;
+}
+
+#streamContainer {
+    display: none !important;
+}
+
+#ot-sdk-btn-floating.ot-floating-button {
+    display: none !important;
+}
+#newsHolder {
+    display: none !important;
+}
+
+#aHolder {
+    display: none !important;
+}
+
+#gameNameHolder {
+    display: none !important;
+}
+.button {
+    background-color: #00ffe938 !important;
+    box-shadow: inset 0 -7px 0 0 #7700ca!important;
+}
+
+#menuItemContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 60px !important;
+    left: 640px !important;
+    position: absolute !important;
+    top: 3px !important;
+    width: 800px !important;
+}
+
+.menuItemIcon {
+    display: none !important;
+}
+#subLogoButtons {
+    position: absolute;
+    bottom: 132px;
+    left: 640px;
+    transform: translate(-50%,0) scale(.95);
+    top: 11.5px !important;
+}
+
+.menuItem {
+    height: 40px !important;
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 #7700ca!important;
+}
+#streamContainer {
+    display: none !important;
+}
+
+#ot-sdk-btn-floating.ot-floating-button {
+    display: none !important;
+}
+
+#newsHolder {
+    display: none !important;
+}
+
+#aHolder {
+    display: none !important;
+}
+
+#gameNameHolder {
+    display: none !important;
+}
+.button {
+    background-color: #ffffff1f !important;
+    box-shadow: inset 0 -7px 0 0 cyan !important;
+}
+
+#menuItemContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 60px !important;
+    left: 640px !important;
+    position: absolute !important;
+    top: 3px !important;
+    width: 800px !important;
+}
+
+.menuItemIcon {
+    display: none !important;
+}
+
+#subLogoButtons {
+    position: absolute;
+    bottom: 132px;
+    left: 1040px;
+    transform: translate(-50%,0) scale(.95);
+    top: 20px !important;
+}
+.menuItem {
+    height: 40px !important;
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 cyan!important;
+}
+
+#menuWindow {
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 cyan !important;
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0px !important;
+}
+#mLevelCont {
+    display: none !important;
+}
+
+#chatHolder {
+    position: absolute;
+    z-index: 1000;
+    width: 280px;
+    bottom: 20px;
+    left: 20px;
+    transition: all 0.5s linear;
+}
+#uiBase.onMenu #chatHolder {
+    position: absolute !important;
+    left: 15px !important;
+    bottom: 13px !important;
+}
+
+.chatItem {
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 cyan !important;
+    border-radius: 0px !important;
+}
+.headerBar {
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 cyan !important;
+}
+
+#instructionsUpdate {
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 #7700ca!important;
+}
+#instructions {
+    animation: none !important;
+}
+
+#termsInfo {
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 cyan!important;
+}
+
+#chatInput {
+    background-color: #ffffff0f !important;
+    box-shadow: inset 0 -7px 0 0 cyan !important;
+    border-radius: 0px !important;
+}
+
+#voiceDisplay {
+    display: none !important;
+}
+.serverHeader {
+    background-color: #ffffff0f !important;
+}
+
+.settingsHeader {
+    background-color: #ffffff0f !important;
+}
+
+.menuItem:hover {
+    border-left: 0px solid #fff !important;
+}
+
+#streakCount {
+    position: fixed;
+    transform: translateX(-50%);
+    top: 85%;
+    left: 50%;
+    background-color: transparent;
+}
+
+#streakIcon {
+    filter: drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
+}
+.kfItem {
+    border-radius: 0px;
+}
+
+#killStreakHolder {
+    position: fixed;
+    left: 53%;
+    top: 80%;
+}
+
+.killStreakItem {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+
+#hudClassIcon {
+    display: none;
+}
+#healthValueHolder {
+    background-color: transparent;
+    width: 100px;
+    height: 65px;
+    border-radius: 0;
+    position: fixed;
+    left: 30%;
+    bottom: 25%;
+    padding: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+}
+
+#healthValue {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    margin-top: 0;
+    will-change: unset;
+}
+#maxHP {
+    display: none;
+}
+
+#challIcon {
+    display: none !important;
+}
+
+#healthBar {
+    display: none;
+}
+
+#ammoDisplay {
+    background-color: transparent;
+    letter-spacing: 2px;
+    width: 100px;
+    height: 65px;
+    border-radius: 0;
+    position: fixed;
+    right: 31%;
+    bottom: 25%;
+    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    transform: none;
+}
+#ammoVal {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-left: 12px;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#ammoMax {
+    display: none;
+}
+#ammoIcon {
+    display: none;
+}
+
+#reloadMsg {
+    background: transparent !important;
+}
